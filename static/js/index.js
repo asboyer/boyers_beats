@@ -17,6 +17,8 @@ $(document).ready(function(){
                 <img src="${values.cover_img}" alt="" class="portfolio__img">
             <div class="album_overlay">
                 <div class="album-text">
+                    <p class="artist" style="font-size: 10px">Amount of times played: ${values.played}</p>
+                    <p class="artist" style="font-size: 10px">Hours played: ${Math.round((values.msPlayed * 0.001)/3600)}</p>
                 </div>
             </div>
             </a>
